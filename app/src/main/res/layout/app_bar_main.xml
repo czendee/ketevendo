@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.youtochi.ktvendo.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <Button
+                android:id="@+id/tabBtnMapa"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/menuBarLista"
+                android:backgroundTint="@color/wallet_holo_blue_light"
+                android:onClick="irCheckOut"
+                />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/iconbuycart"
+                android:src="@mipmap/buy_cart_small"
+                android:text="5"
+                android:layout_height="match_parent"
+                android:onClick="irCheckOut"
+                />
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/icon06"
+                android:src="@mipmap/planet02_small"
+                android:text="5"
+                android:layout_height="match_parent"
+                android:onClick="irTierraMap"
+
+                />
+<!--
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/icon03"
+                android:src="@mipmap/planet01_small"
+                android:layout_height="match_parent"
+                android:onClick="irLunaMap"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/icon04"
+                android:src="@mipmap/planet03_small"
+                android:layout_height="match_parent"
+                android:onClick="irMarteMap"/>
+
+-->
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_add" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabmap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_mylocation" />
+
+</android.support.design.widget.CoordinatorLayout>

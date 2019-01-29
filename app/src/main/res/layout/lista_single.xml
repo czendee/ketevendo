@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+
+    > <!--es muy importante la propiedad descendantFocusability pues sino no funciona el click en los items
+       -->
+   <TableRow >
+
+       <Button
+           android:layout_height="wrap_content"
+           android:layout_width="50dp"
+           android:id="@+id/btnRegresarCobrar"
+           android:background="@mipmap/ic_control_2"
+
+           android:onClick="irDetalleRobot"
+           />
+       <TextView
+           android:id="@+id/txt"
+           android:textSize="@dimen/lista_text_height"
+           android:layout_height="@dimen/lista_height"
+           />
+       <ImageView
+           android:id="@+id/img"
+           android:layout_height="50dp"/>
+
+
+   </TableRow>
+</TableLayout>

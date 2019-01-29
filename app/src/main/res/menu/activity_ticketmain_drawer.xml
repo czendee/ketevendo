@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ticketnav_ventas"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Ventas" />
+        <item
+            android:id="@+id/ticketnav_recibos"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Recibos" />
+        <item
+            android:id="@+id/ticketnav_productos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Productos" />
+        <item
+            android:id="@+id/ticketnav_com"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Comentarios" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/ticketnav_backo"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Back office" />
+            <item
+                android:id="@+id/ticketnav_config"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Configuracion" />
+            <item
+                android:id="@+id/ticketnav_soporte"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Soporte" />
+        </menu>
+    </item>
+
+</menu>

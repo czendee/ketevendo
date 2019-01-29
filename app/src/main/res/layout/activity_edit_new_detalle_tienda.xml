@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.youtochi.ktvendo.DespliegaDetalleTiendaActivity">
+
+
+<LinearLayout android:orientation="vertical"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.youtochi.youtochiballrobotunit.DespliegaDetalleRobotActivity">
+
+
+
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_id"
+        android:id="@+id/screenRobotId"
+        android:enabled="false"/>
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_name"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_name"
+        android:id="@+id/screenRobotName"
+        android:enabled="true"/>
+    <TextView
+        android:id="@+id/textTipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_tipo"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_tipo"
+        android:id="@+id/screenRobotTipo"
+        android:enabled="true"/>
+
+    <TextView
+        android:id="@+id/textManada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_manada"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_manada"
+        android:id="@+id/screenRobotManada"
+        android:enabled="true"/>
+
+    <TextView
+        android:id="@+id/textLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_latitud"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+
+        android:id="@+id/screenRobotLat"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/textLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_default_lon"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/escribe_lon"
+        android:id="@+id/screenRobotLon"
+        android:enabled="false"/>
+
+    <TextView
+        android:id="@+id/textTiempo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_tiempo"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_tiempo"
+        android:id="@+id/screenRobotTiempo"
+        android:enabled="true"/>
+
+    <TextView
+        android:id="@+id/textCosto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_costo"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_costo"
+        android:id="@+id/screenRobotCosto"
+        android:enabled="true"/>
+
+    <TextView
+        android:id="@+id/textTransmite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_escribe_transmite"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_transmite"
+        android:id="@+id/screenRobotTransmite"
+        android:enabled="true"/>
+
+    <TextView
+        android:id="@+id/textTransmiteCanal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_escribe_transmitecanal"
+        android:textSize="10sp" />
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/new_default_transmitecanal"
+        android:id="@+id/screenRobotTransmiteCanal"
+        android:enabled="true"/>
+
+    <ImageView
+        android:id="@+id/productoImagen"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"/>
+
+
+    <TextView
+        android:id="@+id/textResultadoOperacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vacio"
+        android:textSize="10sp" />
+
+    <!--        <Button android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/btnSaveTask"
+                android:text="@string/boton_guardar"/>
+                -->
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnAddProdShopping"
+        android:hint="@string/boton_agregarProductoEnvio"
+
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_gravity="top|start"
+        /> <!--  android:background="@mipmap/ic_botonflechaleft"-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/detallerobotfab01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_mylocation" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/btnRegresarRentar"
+
+        android:src="@android:drawable/ic_media_previous"
+        />
+    <!--  android:background="@mipmap/ic_botonflechaleft"
+    android:text="@string/boton_regresar_lista"-->
+
+
+
+</LinearLayout>
+    </ScrollView>

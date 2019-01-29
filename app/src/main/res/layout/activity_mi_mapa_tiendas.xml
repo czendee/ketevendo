@@ -1,0 +1,74 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youtochi.ktvendo.MiMapaTiendasActivity" >
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafab02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_agenda" />
+
+    <android.support.design.widget.FloatingActionButton
+    android:id="@+id/mapasensorpos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|end"
+    android:layout_margin="@dimen/fab_margin"
+    android:src="@android:drawable/ic_menu_mylocation" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafab01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_menu_mylocation" />
+
+
+    <!-- Boton flotante para controlar al robot Up-Down-Rigth-Left-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapaAllfabArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapaAllfabAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapaAllfabIzq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapaAllfabDer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+
+</fragment>
+
+

@@ -1,0 +1,100 @@
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.youtochi.ktvendo.MiMapaDetalleUnTiendaActivity" >
+
+
+    <!--         <android.support.design.widget.FloatingActionButton
+               android:id="@+id/mapafab02"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="bottom|start"
+               android:layout_margin="@dimen/fab_margin_controles"
+               android:src="@android:drawable/ic_menu_agenda" />
+   -->
+       <!-- Boton flotante para controlar al robot Up-Down-Rigth-Left-->
+<!--        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/mapafab01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|end"
+            android:layout_margin="@dimen/fab_margin_controles"
+            android:src="@android:drawable/ic_menu_mylocation" />
+            -->
+
+    <!-- Boton flotante para conectarse remotamente al robot-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafab04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_media_play" />
+
+    <!-- Boton flotante para desplegar puntaje del usuario/Points-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafabTopCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_media_play" />
+
+    <!-- Boton flotante para desplegar Cobro del usuario/Money-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafabTopDinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_media_play" />
+
+    <!-- Boton flotante para controlar robot via Transimision Periscope Live-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafab05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+
+
+    <!-- Boton flotante para controlar al robot Up-Down-Rigth-Left-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafabArriba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafabAbajo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafabIzq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mapafabDer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|end"
+
+        android:layout_margin="@dimen/fab_margin_controles"
+        android:src="@android:drawable/ic_menu_gallery" />
+    </fragment>

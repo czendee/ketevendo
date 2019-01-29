@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">QTiendaKTvendo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mi_mapa_robots">Map</string>
+
+
+    <!-- Screen Inicial MainActivity screen-->
+    <string name="title_main">QtiendaKTVendo</string>
+
+    <string name="registrate_controlar_robots">Registrate para Vender</string>
+    <string name="mostrar_mapa_robots">Mapa Tienditas </string>
+
+
+    <!-- Screen Despliega Detalle screen-->
+    <string name="escribe_id_producto">:</string>
+    <string name="escribe_nombre_producto">nombre</string>
+    <string name="escribe_precio_producto">precio</string>
+
+    <string name="escribe_id">id</string>
+    <string name="escribe_name">Nombre</string>
+    <string name="escribe_tipo">Tipo</string>
+    <string name="escribe_manada">Manada</string>
+    <string name="escribe_latitud">Lat</string>
+    <string name="escribe_lon">Lon</string>
+    <string name="escribe_tiempo">Tiempo</string>
+    <string name="escribe_costo">Costo</string>
+
+
+    <string name="vacio">.</string>
+
+    <string name="boton_agregarProductoEnvio">Agregar a Pedido</string>
+
+    <string name="boton_agregarRobot">Agregar nuevo Robot</string>
+
+    <string name="boton_regresar_lista">Regresar</string>
+
+
+    <string name="titulo_menu">Qtienditas - Youtochi</string>
+
+    <!-- Screen Inicial MainActivity screen-->
+    <string name="regresar_a_lista_robots">Registrate para ver Lista Tiendas</string>
+    <string name="aqui_esta_en_mapa_robots">Muestra tiendas cerca Usted.Solo Usuarios Registrados </string>
+
+    <string name="bienvenido_lista_robots">Lista de Tiendas cerca</string>
+
+
+    <!-- Screen Mapa Un robot-->
+    <string name="controla_robot_remotamente">Usuarios Registrados - Controlar al Robot usando  Google Maps</string>
+    <string name="conecta_robot_remoto">Usuarios Registrados - Conectarte por medio Internet al Robot.Empieza a Jugar </string>
+    <string name="controla_robot_via_persicope">Usuarios Registrados - Controlar al Robot usando Periscope Live</string>
+
+
+    <!--pantalla main -->
+    <string name="cobrar1">Comprar con tus Puntos </string>
+    <string name="ticketCuantos">0.00 </string>
+    <string name="title_activity_despliega_checkout_pagar">DespliegaCheckoutPagarActivity</string>
+    <string name="menuBarMapa">Mapa </string>
+    <string name="menuBarLista">Lista </string>
+
+    <string name="fadein">fade </string>
+    <string name="transparency">Transr </string>
+
+    <string name="nfadein">mfode </string>
+    <string name="ntransparency">mTransr </string>
+
+    <!-- Screen Moon Activity screen-->
+    <string name="title_luna">Robots Lunares</string>
+
+    <!-- Screen Marte Activity screen-->
+    <string name="title_marte">Robots en Marte</string>
+
+
+    <!-- Screen EditNew Detalle screen-->
+    <string name="new_escribe_id_producto">:</string>
+    <string name="new_escribe_nombre_producto">nombre</string>
+    <string name="new_escribe_precio_producto">precio</string>
+
+    <string name="new_escribe_id">id</string>
+    <string name="new_escribe_name">Nombre</string>
+    <string name="new_escribe_tipo">Tipo</string>
+    <string name="new_escribe_manada">Manada</string>
+    <string name="new_escribe_latitud">Lat</string>
+    <string name="new_escribe_lon">Lon</string>
+    <string name="new_escribe_tiempo">Tiempo</string>
+    <string name="new_escribe_costo">Costo</string>
+    <string name="new_escribe_transmite">Transmite</string>
+    <string name="new_escribe_transmitecanal">Canal</string>
+
+    <string name="new_default_id">10</string>
+    <string name="new_default_name">el nombre de tu robot</string>
+    <string name="new_default_tipo">Tipo</string>
+    <string name="new_default_manada">No</string>
+    <string name="new_default_latitud">Lat</string>
+    <string name="new_default_lon">Lon</string>
+    <string name="new_default_tiempo">00:05</string>
+    <string name="new_default_costo">0.00</string>
+    <string name="new_default_transmite">Periscope</string>
+    <string name="new_default_transmitecanal">tochizendejas</string>
+
+    <!--                                             TICKET  module                    -->
+
+    <!-- Screen Ticket Main screen screen-->
+    <string name="ticketregistrate_usar">Registrate para vender!</string>
+    <string name="tickettitulo_menu">POS ShopShop - Youtochi</string>
+    <string name="ticketcobrar">Compra con tus Puntos </string>
+
+
+    <!--menu -->
+
+    <string name="ticketbuy">tu compra.</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
+
+
+
